@@ -1,0 +1,25 @@
+{
+  "name": "wallet-sdk",
+  "version": "1.0.0",
+  "description": "wallet sdk",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "yuankanglin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "bip32": "^5.0.0-rc.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^7.0.0-rc.0",
+    "bitcore-lib": "^10.5.3",
+    "tiny-secp256k1": "^2.2.3"
+  }
+}
